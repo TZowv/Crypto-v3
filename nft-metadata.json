@@ -1,0 +1,15 @@
+{
+    "attributes": [
+      {
+        "trait_type": "Course",
+        "value": "Bitcoin"
+      },
+      {
+        "trait_type": "Name",
+        "value": "Satoshi Nakamoto"
+      }
+    ],
+    "description": "The founder of Bitcoin",
+    "image": "ipfs://QmVxFXNuVJdk5QFzvkpSSeXypdDsCf8LET1kDnkZQBFyvj",
+    "name": "Course Credit Certificate"
+  }
