@@ -1,0 +1,12 @@
+Gas Auction Fees Model
+In Ethereum's gas auction model (also known as the First Price Auction Model):
+1.	Gas Price and Max Priority Fee:
+•	Users specify a gas price they're willing to pay (in Gwei) and a max priority fee (or "tip") for miners. In this case, the gas price is 2.08045766e+11 Gwei, and the max priority fee is 110000000 wei (110 Gwei).
+2.	Auction Behaviour:
+•	The user bidding the highest gas price is likely to have their transaction included first. If the network is busy (high demand), users pay more to prioritize their transactions, resulting in higher gas costs.
+
+Implications of the Gas Auction Model:
+•	During high network demand, gas fees can surge, causing users to pay significantly more to ensure their transactions are processed quickly.
+•	Gas prices can fluctuate widely depending on the current demand for transactions, making it difficult to predict exact costs.
+•	Miners prioritize transactions with higher fees, which can create a competitive environment where only users willing to pay high fees get faster transaction processing.
+•	With the introduction of EIP-1559, the model changed slightly by introducing a base fee that adjusts based on network demand, helping stabilize gas prices. However, users still pay a tip (max priority fee) for faster processing, which incentivizes miners.
